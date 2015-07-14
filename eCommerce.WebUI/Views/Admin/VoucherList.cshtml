@@ -1,0 +1,74 @@
+﻿@model IEnumerable<eCommerce.Model.Voucher>
+
+@{
+    ViewBag.Title = "VoucherList";
+}
+
+<h2>VoucherList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateVoucher")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VoucherCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VoucherTypeId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VoucherDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AppliesToProductId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Value)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MinSpend)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.multipleUse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssignedTo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.VoucherCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VoucherTypeId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VoucherDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AppliesToProductId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MinSpend)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.multipleUse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AssignedTo)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditVoucher", new { id=item.VoucherId }) |
+            @Html.ActionLink("Delete", "DeleteVoucher", new { id=item.VoucherId })
+        </td>
+    </tr>
+}
+
+</table>

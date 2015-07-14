@@ -1,0 +1,25 @@
+﻿@model IEnumerable<eCommerce.Model.Product>
+
+@{
+    ViewBag.Title = "Product List";
+}
+
+<h2>Products</h2>
+
+<table class="table">
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+           <img style="width:15%" src="/images/@item.ImageUrl" alt="@item.Description" />
+        </td>
+        <td>
+            @Html.ActionLink(item.Description, "Details", new { id = item.ProductId })
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Contracts", "eCommerce.Contracts\eCommerce.Contracts.csproj", "{FDBC7128-701F-47FE-A02B-A94516284107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Model", "eCommerce.Model\eCommerce.Model.csproj", "{AEDDB34E-039C-404F-BAFD-335749DFADEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.DAL", "eCommerce.DAL\eCommerce.DAL.csproj", "{1C3ED505-E02B-44B1-8329-B1C8536FACF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.WebUI", "eCommerce.WebUI\eCommerce.WebUI.csproj", "{B35D82CA-9FFC-4B5D-9E4D-B02D18F08EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Services", "eCommerce.Services\eCommerce.Services.csproj", "{C1AB2E92-4C57-4730-86CB-5447C2465C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Modules.Vouchers.MoneyOff", "eCommerce.Modules.Vouchers.MoneyOff\eCommerce.Modules.Vouchers.MoneyOff.csproj", "{6C1BC6FC-D4F3-4A71-A955-953CD17DDAB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Modules.Vouchers.PercentOff", "eCommerce.Modules.Vouchers.PercentOff\eCommerce.Modules.Vouchers.PercentOff.csproj", "{8AA34EEC-9024-4721-A015-F6FBF5622CCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBC7128-701F-47FE-A02B-A94516284107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBC7128-701F-47FE-A02B-A94516284107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBC7128-701F-47FE-A02B-A94516284107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBC7128-701F-47FE-A02B-A94516284107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDDB34E-039C-404F-BAFD-335749DFADEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDDB34E-039C-404F-BAFD-335749DFADEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDDB34E-039C-404F-BAFD-335749DFADEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDDB34E-039C-404F-BAFD-335749DFADEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3ED505-E02B-44B1-8329-B1C8536FACF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3ED505-E02B-44B1-8329-B1C8536FACF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3ED505-E02B-44B1-8329-B1C8536FACF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3ED505-E02B-44B1-8329-B1C8536FACF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35D82CA-9FFC-4B5D-9E4D-B02D18F08EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35D82CA-9FFC-4B5D-9E4D-B02D18F08EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35D82CA-9FFC-4B5D-9E4D-B02D18F08EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35D82CA-9FFC-4B5D-9E4D-B02D18F08EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AB2E92-4C57-4730-86CB-5447C2465C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AB2E92-4C57-4730-86CB-5447C2465C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AB2E92-4C57-4730-86CB-5447C2465C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AB2E92-4C57-4730-86CB-5447C2465C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1BC6FC-D4F3-4A71-A955-953CD17DDAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1BC6FC-D4F3-4A71-A955-953CD17DDAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1BC6FC-D4F3-4A71-A955-953CD17DDAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1BC6FC-D4F3-4A71-A955-953CD17DDAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA34EEC-9024-4721-A015-F6FBF5622CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA34EEC-9024-4721-A015-F6FBF5622CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA34EEC-9024-4721-A015-F6FBF5622CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA34EEC-9024-4721-A015-F6FBF5622CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
